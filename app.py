@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score, classification_report
+# Added accuracy_score to the imports below
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score, classification_report, accuracy_score
 from xgboost import XGBRegressor
 import lightgbm as lgb
 from sklearn.cluster import KMeans
